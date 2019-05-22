@@ -1,0 +1,8 @@
+image:
+- Visual Studio 2017
+- Ubuntu1604
+- Ubuntu1804
+before_build:
+- dotnet restore
+build:
+  verbosity: minimal
